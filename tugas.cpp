@@ -21,5 +21,9 @@ int main(){
 	double w[5];
 	double m[5];
 	double ha[3];
+	
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(4);
 
 }
