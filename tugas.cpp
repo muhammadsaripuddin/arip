@@ -95,4 +95,27 @@ int main(){
 	ha[0]=RWa1[0]+RWa1[1]+RWa1[2]+RWa1[3]+RWa1[4];
 	ha[1]=RWa2[0]+RWa2[1]+RWa2[2]+RWa2[3]+RWa2[4];
 	ha[2]=RWa3[0]+RWa3[1]+RWa3[2]+RWa3[3]+RWa3[4];
+
+	cout << a1[0] <<" | "<<a1[1]<<" | "<<a1[2]<<" | "<<a1[3]<<" | "<<a1[4]<<endl;
+	cout << a2[0] <<" | "<<a2[1]<<" | "<<a2[2]<<" | "<<a2[3]<<" | "<<a2[4]<<endl;
+	cout << a3[0] <<" | "<<a3[1]<<" | "<<a3[2]<<" | "<<a3[3]<<" | "<<a3[4]<<endl;
+	cout << endl;
+	cout << "MATRIKS R :"<<endl;
+	cout << Ra1[0] <<" | "<<Ra1[1]<<" | "<<Ra1[2]<<" | "<<Ra1[3]<<" | "<<Ra1[4]<<endl;
+	cout << Ra2[0] <<" | "<<Ra2[1]<<" | "<<Ra2[2]<<" | "<<Ra2[3]<<" | "<<Ra2[4]<<endl;
+	cout << Ra3[0] <<" | "<<Ra3[1]<<" | "<<Ra3[2]<<" | "<<Ra3[3]<<" | "<<Ra3[4]<<endl;
+	cout << endl;
+	cout << "BOBOT W :"<<endl;
+	cout << w[0] <<" | "<<w[1]<<" | "<<w[2]<<" | "<<w[3]<<" | "<<w[4]<<endl;
+	cout << endl;
+	cout << "MATRIKS R * W :"<<endl;
+	cout << RWa1[0] <<" | "<<RWa1[1]<<" | "<<RWa1[2]<<" | "<<RWa1[3]<<" | "<<RWa1[4]<<endl;
+	cout << RWa2[0] <<" | "<<RWa2[1]<<" | "<<RWa2[2]<<" | "<<RWa2[3]<<" | "<<RWa2[4]<<endl;
+	cout << RWa3[0] <<" | "<<RWa3[1]<<" | "<<RWa3[2]<<" | "<<RWa3[3]<<" | "<<RWa3[4]<<endl;
+	cout << endl;
+	cout << "HASIL AKHIR  :"<<endl;
+	cout << "Nilai A1 : "<<ha[0]<<endl;
+	cout << "Nilai A2 : "<<ha[1]<<endl;
+	cout << "Nilai A3 : "<<ha[2]<<endl;
+
 }
