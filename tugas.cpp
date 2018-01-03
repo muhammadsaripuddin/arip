@@ -91,4 +91,8 @@ int main(){
 	RWa3[2] = Ra3[2]*w[2];
 	RWa3[3] = Ra3[3]*w[3];
 	RWa3[4] = Ra3[4]*w[4];
+	
+	ha[0]=RWa1[0]+RWa1[1]+RWa1[2]+RWa1[3]+RWa1[4];
+	ha[1]=RWa2[0]+RWa2[1]+RWa2[2]+RWa2[3]+RWa2[4];
+	ha[2]=RWa3[0]+RWa3[1]+RWa3[2]+RWa3[3]+RWa3[4];
 }
